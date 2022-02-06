@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TabItem tab1,tab2,tab3;
 
     PagerController pagerAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewuno);
-        tab1 = findViewById(R.id.tabitem1);
-        tab2 = findViewById(R.id.tabitem2);
-        tab3 = findViewById(R.id.tabitem3);
+        tab1 = findViewById(R.id.tabcontactos);
+        tab2 = findViewById(R.id.tabcorreos);
+        tab3 = findViewById(R.id.tabmensajes);
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
 
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 if(tab.getPosition()==2){
                     pagerAdapter.notifyDataSetChanged();
                 }
+                if(tab.getPosition()==3){
+                    pagerAdapter.notifyDataSetChanged();
+                }
             }
 
             @Override
@@ -60,10 +64,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-// Aquí ViewPager en la activity sabe cual frafment mostrar
-        viewPager.addOnPageChangeListener(new
-                TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
 
     }
+
+
 }

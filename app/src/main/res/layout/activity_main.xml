@@ -5,35 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity" >
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
-        android:layout_height="134dp">
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200">
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabitem1"
+            android:id="@+id/tabcontactos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Monday" />
+            android:text="@string/Contacto"
+        />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabitem2"
+            android:id="@+id/tabcorreos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tuesday" />
+            android:text="@string/Correo"
+
+            />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabitem3"
+            android:id="@+id/tabmensajes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wednesday" />
+            android:text="@string/Mensaje"
+
+            />
     </com.google.android.material.tabs.TabLayout>
 
-    <androidx.viewpager2.widget.ViewPager2
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewuno"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
 </LinearLayout>
