@@ -6,7 +6,6 @@ import android.os.Bundle;
 import com.example.semana3grupo2ejerciodetabs.Controlador.PagerController;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewuno);
-        tab1 = findViewById(R.id.tabcontactos);
-        tab2 = findViewById(R.id.tabcorreos);
-        tab3 = findViewById(R.id.tabmensajes);
+        tab1 = findViewById(R.id.tabdesayuno);
+        tab2 = findViewById(R.id.tabAlmuerzo);
+        tab3 = findViewById(R.id.tabCena);
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
 

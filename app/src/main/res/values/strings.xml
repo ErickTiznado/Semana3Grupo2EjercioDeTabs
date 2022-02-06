@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Semana3Grupo2EjercioDeTabs</string>
+    <string name="app_name">ALIMENTOS SALUDABLES</string>
     <string name="Contacto">Contacto</string>
     <string name="Correo">Correo</string>
     <string name="Mensaje">Mensaje</string>
@@ -8,7 +8,7 @@
     //STRING PARA LOS TAB
     <string name="tabdesayuno">Desayuno Saludable</string>
     <string name="tabAlmuerzo">Almuerzo Saludable</string>
-    <string name="tabCena">Almuerzo Saludable</string>
+    <string name="tabCena">Cena Saludable</string>
 
     //STRING TAB FRAGMENTO DESAYUNO
     <string name="INTRO">Tu desayuno saludable</string>

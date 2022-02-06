@@ -14,27 +14,27 @@
         android:background="#A4F373">
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabcontactos"
+            android:id="@+id/tabdesayuno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic_ihgo5x01"
-            android:text="@string/Contacto" />
+            android:text="@string/tabdesayuno" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabcorreos"
+            android:id="@+id/tabAlmuerzo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic__rrr"
 
-            android:text="@string/Correo" />
+            android:text="@string/tabAlmuerzo" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabmensajes"
+            android:id="@+id/tabCena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/ic__"
 
-            android:text="@string/Mensaje" />
+            android:text="@string/tabCena" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
