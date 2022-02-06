@@ -14,6 +14,14 @@
         android:background="#A4F373">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic__"
+
+            android:text="@string/tabHome" />
+
+        <com.google.android.material.tabs.TabItem
             android:id="@+id/tabdesayuno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,6 +43,7 @@
             android:icon="@drawable/ic__"
 
             android:text="@string/tabCena" />
+
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager

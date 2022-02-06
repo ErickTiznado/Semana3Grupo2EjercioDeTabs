@@ -9,6 +9,7 @@
     <string name="tabdesayuno">Desayuno Saludable</string>
     <string name="tabAlmuerzo">Almuerzo Saludable</string>
     <string name="tabCena">Cena Saludable</string>
+    <string name="tabHome">Inicio</string>
 
     //STRING TAB FRAGMENTO DESAYUNO
     <string name="INTRO">Tu desayuno saludable</string>
@@ -34,7 +35,6 @@
     <string name="TITULO2FS">Ensalada Campera</string>
     <string name="TITULO3FS">Ensalada De Fruta</string>
     <string name="TITULO4FS">Ensalada De Arroz Con Lentejas</string>
-
 
 
 </resources>

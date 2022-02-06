@@ -20,11 +20,13 @@ public class PagerController extends FragmentPagerAdapter {
         // aquí se determina cual fragment cargar
         switch (position) {
             case 0:
-                return new BlankFragment();
+                return new BlankFragment4();
             case 1:
-                return new BlankFragment2();
+                return new BlankFragment();
             case 2:
-                return new BlankFragment3();
+                return new BlankFragment2();
+            case 3:
+                return  new BlankFragment3();
             default:
                 return null;
         }
