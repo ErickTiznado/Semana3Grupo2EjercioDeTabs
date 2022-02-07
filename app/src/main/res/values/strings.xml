@@ -36,5 +36,10 @@
     <string name="TITULO3FS">Ensalada De Fruta</string>
     <string name="TITULO4FS">Ensalada De Arroz Con Lentejas</string>
 
+    //STRING TAB FRAGMENTO INICIO
+    <string name="TITULOINICIO"> BIENVENIDO A TUS ALIMENTOS SALUDABLES </string>
 
+    <string name="MENSAJEINICIO"> Hemos preparado para ti distintas opciones de comidas saludable,
+        para conocerlas ingresa a las opciones de la parte inferior de la pantalla. </string>
+    <string name="todo">TODO</string>
 </resources>
